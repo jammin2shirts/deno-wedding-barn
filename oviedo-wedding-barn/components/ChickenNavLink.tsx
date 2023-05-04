@@ -6,17 +6,17 @@ export function ChickenNavLink(props: JSX.HTMLAttributes) {
   const [isHovering, setIsHovering] = useState(false);
   console.dir(props);
   return (
-    <div class=" m-auto max-w-screen-md ">
-      <div class="w-full flex justify-center">
+    <div class="m-auto max-w-max ">
+      <div class=" h-20 flex justify-center items-end">
         {isHovering
           ? (
             <img
               src="/images/nav-rooster.png"
-              class="w-10 h-10"
+              class="w-14 h-16 pb-4 "
               alt="Navigation Rooster: rooster appearing over currently hovered navigation link"
             />
           )
-          : <div class="w-10 h-10"></div>}
+          : <div class=""></div>}
       </div>
       <a
         onMouseOver={() => setIsHovering(true)}
