@@ -38,7 +38,7 @@ export default function NavBar() {
         <img alt="right-arrow" src="/images/arrow.svg" />
       </div>
     </div>
-      <p class="flex w-full justify-center font-ambroise-std text-3xl font-light text-wedding-barn-red">
+      <p class="flex lg:my-6 w-full justify-center font-ambroise-std text-3xl font-light text-wedding-barn-red">
       OPENING 2023
       </p>
       </>
