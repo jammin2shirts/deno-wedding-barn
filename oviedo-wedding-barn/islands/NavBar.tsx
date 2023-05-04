@@ -11,7 +11,6 @@ export default function NavBar() {
       </div>
       <div class="flex flex-col w-2/5 justify-center invisible lg:visible">
         <div class="flex">
-          <ChickenNavLink/>
           <ChickenNavLink link="/">HOME</ChickenNavLink>
           <ChickenNavLink link="/about">ABOUT</ChickenNavLink>
         </div>
