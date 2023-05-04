@@ -15,7 +15,7 @@ export default function NavBar() {
           <ChickenNavLink link="/">HOME</ChickenNavLink>
           <ChickenNavLink link="/about">ABOUT</ChickenNavLink>
         </div>
-        <img class="rotate-180" alt="right-arrow" src="/images/arrow.svg" />
+        <img class="rotate-180" alt="left-arrow" src="/images/arrow.svg" />
       </div>
       <div class="flex">
         <img
@@ -35,7 +35,7 @@ export default function NavBar() {
           </ChickenNavLink>
           <ChickenNavLink link="/gallery">GALLERY</ChickenNavLink>
         </div>
-        <img class="arrow" alt="right-arrow" src="/images/arrow.svg" />
+        <img alt="right-arrow" src="/images/arrow.svg" />
       </div>
     </div>
       <p class="flex w-full justify-center font-ambrose-std text-3xl text-wedding-barn-red">
