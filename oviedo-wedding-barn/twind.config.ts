@@ -5,8 +5,9 @@ export default {
   theme: {
         extend: {
           fontFamily: {
-            'ambrose-light': '"Ambrose Light"',
-            'ambrose-std': '"Ambrose Std"',
+            'ambroise-std': 'ambroise-std',
+            'ambroise-firmin-std': 'ambroise-firmin-std',
+            'ambroise-francois-std': 'ambroise-francois-std',
             'ed-market':'eds-market-main-script',
             'canada-type-gibson':'canada-type-gibson',
           },
@@ -15,19 +16,4 @@ export default {
           }
         },
       },
-  preflight: {
-    // Declare font face
-    '@font-face': [
-      {
-        fontFamily: 'Ambrose Light',
-        fontWeight: '800',
-        src: 'url(/static/fonts/Ambroise_Light_Regular) format("otf")',
-      },
-      {
-        fontFamily: 'Ambrose Std',
-        fontWeight: '500',
-        src: 'url(static/fonts/Ambroise_Light_Regular) format("otf")',
-      },
-    ],
-  },
 } as Options;
