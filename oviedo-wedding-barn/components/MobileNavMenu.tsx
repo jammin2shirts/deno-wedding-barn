@@ -21,7 +21,7 @@ export function MobileNavMenu(props: MobileNavProps) {
         onClick={() => {
           setSelected(!selected);
         }}
-        class="w-8 h-8 border rounded-full p-1 active:bg-gray-100"
+        class="w-12 h-12  rounded-full p-1 active:bg-gray-200"
       />
       {selected &&
         (

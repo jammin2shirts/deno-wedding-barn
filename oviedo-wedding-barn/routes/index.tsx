@@ -34,11 +34,15 @@ export default function Home() {
       <div class="px-4 sm:px-0 mx-auto font-canada-type-gibson">
         <div>
           <div class="relative">
-            <img src="/images/webp/zoomed-in-rafter.webp" alt="test" class="w-full"/>
+            <img
+              src="/images/webp/zoomed-in-rafter.webp"
+              alt="test"
+              class="w-full"
+            />
             <div class="absolute inset-x-0 bottom-2">
-              <div class="w-max opacity-90 border p-2 lg:p-6 
-              rounded-xl lg:rounded-3xl mx-auto bg-white text-center text-wedding-barn-red font-ambroise-std lg:text-3xl">
-              WELCOME TO THE WEDDING BARN
+              <div class="w-max opacity-90 border p-2 md:p-6 
+              rounded-xl lg:rounded-3xl mx-auto bg-white text-center text-wedding-barn-red font-ambroise-std text-xl md:text-3xl">
+                WELCOME TO THE WEDDING BARN
               </div>
             </div>
           </div>
@@ -46,7 +50,7 @@ export default function Home() {
           <img
             src="/images/arrow.svg"
             alt="section divider arrow"
-            class=" pb-8 rotate-180"
+            class=" pb-8 lg:px-8 rotate-180"
           />
         </div>
         <p class="px-4 my-6 mx-auto text-xl leading-loose max-w-screen-xl font-extralight">
