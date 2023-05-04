@@ -33,20 +33,23 @@ export default function Home() {
       <NavBar selected={0} />
       <div class="px-4 sm:px-0 mx-auto font-canada-type-gibson">
         <div>
-          <div class="flex flex-col">
-            <img src="/images/webp/zoomed-in-rafter.webp" alt="test" />
-            <div class="relative self-center w-4/5  -top-16 opacity-75 border p-3 rounded-full mx-auto bg-white text-center text-wedding-barn-red font-ambroise-std text-xl">
+          <div class="relative">
+            <img src="/images/webp/zoomed-in-rafter.webp" alt="test" class="w-full"/>
+            <div class="absolute inset-x-0 bottom-2">
+              <div class="w-max opacity-90 border p-2 lg:p-6 
+              rounded-xl lg:rounded-3xl mx-auto bg-white text-center text-wedding-barn-red font-ambroise-std lg:text-3xl">
               WELCOME TO THE WEDDING BARN
+              </div>
             </div>
           </div>
 
           <img
             src="/images/arrow.svg"
             alt="section divider arrow"
-            class="p-8 rotate-180"
+            class=" pb-8 rotate-180"
           />
         </div>
-        <p class="my-6 mx-auto text-xl leading-loose max-w-screen-xl font-extralight">
+        <p class="px-4 my-6 mx-auto text-xl leading-loose max-w-screen-xl font-extralight">
           The Wedding Barn operates a beautiful event space right in the heart
           of Central Florida. Located just 20 min north of Orlando, our idyllic
           setting is a family owned and operated venue that prides itself on
@@ -62,31 +65,28 @@ export default function Home() {
         <p class=" py-8 font-ed-market text-center text-3xl text-wedding-barn-red">
           New Beginnings, Timeless Memories
         </p>
-        <div id="mine" class="flex flex-row text-xs sm:text-base">
-          <div class="p-2 text-center">
-            <span class="c-text">The Ceremony</span>
+        <div class="flex flex-col font-extralight md:flex-row text-xl lg:text-2xl">
+          <div class="flex flex-col p-2 text-center justify-items-center">
+            <span class="mb-4">The Ceremony</span>
             <img
               src="images/webp/ceremony.webp"
               alt="wedding barn - ceremony with oak tree view"
-              class="c-img"
               loading="lazy"
             />
           </div>
-          <div class="p-2 text-center">
-            <span class="c-text">The Venue</span>
+          <div class="flex flex-col p-2 text-center justify-items-center">
+            <span class="mb-4">The Venue</span>
             <img
               src="images/webp/interior.webp"
               alt="wedding barn - interior view from barn door"
-              class="c-img"
               loading="lazy"
             />
           </div>
-          <div class="p-2 text-center">
-            <span class="c-text">The Stringlit Porch</span>
+          <div class="flex flex-col p-2 text-center justify-items-center">
+            <span class="mb-4">The Stringlit Porch</span>
             <img
               src="images/webp/patio.webp"
               alt="wedding barn - stringlit porch view"
-              class="c-img"
               loading="lazy"
             />
           </div>
