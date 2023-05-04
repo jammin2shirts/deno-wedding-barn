@@ -36,7 +36,7 @@ export default function Home() {
           <div class="relative">
             <img
               src="/images/webp/zoomed-in-rafter.webp"
-              alt="test"
+              alt="Oviedo Wedding Barn zoomed in interior view of rafters with chandeliers"
               class="w-full"
             />
             <div class="absolute inset-x-0 bottom-2">
@@ -65,7 +65,7 @@ export default function Home() {
           and wandering the memorable grounds. As a premier reception venue, The
           Wedding Barn offers memories to last a life time.
         </p>
-        <img src="/images/webp/barn-door-view.webp" alt="test" />
+        <img src="/images/webp/barn-door-view.webp" alt="Oviedo Wedding Barn outside view from barn doors angled toward the sky" />
         <p class=" py-8 font-ed-market text-center text-3xl text-wedding-barn-red">
           New Beginnings, Timeless Memories
         </p>
@@ -74,7 +74,7 @@ export default function Home() {
             <span class="mb-4">The Ceremony</span>
             <img
               src="images/webp/ceremony.webp"
-              alt="wedding barn - ceremony with oak tree view"
+              alt="Oviedo Wedding Barn view of outside ceremony with oak tree view"
               loading="lazy"
             />
           </div>
@@ -82,7 +82,7 @@ export default function Home() {
             <span class="mb-4">The Venue</span>
             <img
               src="images/webp/interior.webp"
-              alt="wedding barn - interior view from barn door"
+              alt="Oviedo Wedding Barn interior view from barn door showing dinner tables, chandeliers and interior styling"
               loading="lazy"
             />
           </div>
@@ -90,7 +90,7 @@ export default function Home() {
             <span class="mb-4">The Stringlit Porch</span>
             <img
               src="images/webp/patio.webp"
-              alt="wedding barn - stringlit porch view"
+              alt="Oviedo Wedding Barn outdoor stringlit porch view with sunset light draping over the roof"
               loading="lazy"
             />
           </div>
