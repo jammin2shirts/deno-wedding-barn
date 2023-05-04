@@ -47,7 +47,7 @@ export default function Home() {
         <div class="flex flex-col sm:flex-row">
           <img
             src="/images/webp/david.webp"
-            alt="section divider arrow"
+            alt="Oviedo Wedding Barn Sales Manager David Marini Bio Photo"
             class="w-52 h-60"
           />
           <div class="sm:ml-6">
