@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <link rel="stylesheet" href="https://use.typekit.net/lds4gch.css">
+        <link rel="stylesheet" href="https://use.typekit.net/lds4gch.css" rel="preload">
         </link>
         <title>Oviedo Wedding Barn | Packages</title>
         <meta name="title" content="The Wedding Barn - Oviedo, FL" />
