@@ -7,6 +7,8 @@ export default {
           fontFamily: {
             'ambrose-light': '"Ambrose Light"',
             'ambrose-std': '"Ambrose Std"',
+            'ed-market':'eds-market-main-script',
+            'canada-type-gibson':'canada-type-gibson',
           },
           colors: {
             'wedding-barn-red': "#782f40",

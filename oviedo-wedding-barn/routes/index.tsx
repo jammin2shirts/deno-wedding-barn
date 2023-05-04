@@ -5,6 +5,7 @@ export default function Home() {
   return (
     <>
       <Head>
+        <link rel="stylesheet" href="https://use.typekit.net/lds4gch.css"></link>
         <title>Oviedo Wedding Barn</title>
         <meta name="title" content="The Wedding Barn - Oviedo, FL" />
         <meta
@@ -29,7 +30,7 @@ export default function Home() {
         <meta name="og:image" content="/images/webp/full-barn.webp" />
       </Head>
       <NavBar selected={0} />
-      <div class="p-4 mx-auto max-w-screen-md">
+      <div class="p-4 mx-auto max-w-screen-md font-canada-type-gibson">
         <div>
           <img src="/images/webp/zoomed-in-rafter.webp" alt="test" />
           <img src="/images/arrow.svg" alt="test" class="py-4 rotate-180" />
@@ -47,10 +48,10 @@ export default function Home() {
           Wedding Barn offers memories to last a life time.
         </p>
         <img src="/images/webp/barn-door-view.webp" alt="test" />
-        <p class="text-center py-4 font-eds-market-main-script">
+        <p class=" py-8 font-ed-market text-center text-2xl text-wedding-barn-red">
           New Beginnings, Timeless Memories
         </p>
-        <div id="mine" class="flex flex-row">
+        <div id="mine" class="flex flex-row text-xs sm:text-base">
           <div class="p-2 text-center">
             <span class="c-text">The Ceremony</span>
             <img
