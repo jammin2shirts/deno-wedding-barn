@@ -5,6 +5,7 @@ import { MobileNavMenu } from "@/components/MobileNavMenu.tsx";
 
 export default function NavBar() {
   return (
+    <>
     <div class="flex gap-2 w-full justify-center">
       <div class="lg:invisible visible">
         <MobileNavMenu />
@@ -37,5 +38,9 @@ export default function NavBar() {
         <img class="arrow" alt="right-arrow" src="/images/arrow.svg" />
       </div>
     </div>
+      <p class="flex w-full justify-center font-ambrose-std text-3xl text-wedding-barn-red">
+      OPENING 2023
+      </p>
+      </>
   );
 }
