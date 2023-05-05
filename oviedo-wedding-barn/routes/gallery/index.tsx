@@ -1,5 +1,6 @@
 import { Head } from "$fresh/runtime.ts";
 import NavBar from "@/islands/NavBar.tsx";
+import Gallery from "@/islands/Gallery.tsx";
 
 export default function Home() {
   return (
@@ -31,12 +32,7 @@ export default function Home() {
         <meta name="og:image" content="/images/webp/full-barn.webp" />
       </Head>
       <NavBar selected={3} />
-      <div class="p-4 mx-auto max-w-screen-md font-canada-type-gibson">
-        <p class="my-6">
-          Welcome to `fresh`. Try updating this message in the
-          ./routes/index.tsx file, and refresh.
-        </p>
-      </div>
+      <Gallery />
     </>
   );
 }

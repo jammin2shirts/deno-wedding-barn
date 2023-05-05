@@ -13,6 +13,10 @@ export default {
           },
           colors: {
             'wedding-barn-red': "#782f40",
+            'soft-red': "#990033"
+          },
+          height:{
+            '100':'26rem'
           }
         },
       },
