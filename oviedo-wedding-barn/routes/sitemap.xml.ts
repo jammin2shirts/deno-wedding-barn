@@ -4,7 +4,7 @@ import { SitemapContext } from "https://deno.land/x/fresh_seo@0.2.1/mod.ts";
 export const handler: Handlers = {
   GET() {
     const sitemap = new SitemapContext(
-      "https://oviedo-wedding-barn.deno.dev",
+      "https://www.oviedoweddingbarn.com",
       manifest,
     );
     // You can add additional page here
