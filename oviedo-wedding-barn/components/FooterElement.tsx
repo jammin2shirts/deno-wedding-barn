@@ -3,7 +3,7 @@ export function FooterElement() {
     <footer class="flex flex-col md:flex-row justify-center gap-5 font-canada-type-gibson font-extralight my-5">
       <section class="flex flex-col md:flex-row md:justify-end items-center text-center md:text-left ">
         <img
-          src="images/nav-rooster.png"
+          src="images/webp/logo.webp"
           alt="Weathervane Rooster logo in footer"
           class="w-32 md:w-20"
         />

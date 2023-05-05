@@ -11,7 +11,7 @@ export function ChickenNavLink(props: JSX.HTMLAttributes) {
         {isHovering
           ? (
             <img
-              src="/images/nav-rooster.png"
+              src="/images/webp/logo.webp"
               class="w-14 h-16 pb-4 "
               alt="Navigation Rooster: rooster appearing over currently hovered navigation link"
             />

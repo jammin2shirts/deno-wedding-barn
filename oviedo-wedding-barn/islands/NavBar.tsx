@@ -19,7 +19,7 @@ export default function NavBar() {
         </div>
         <div class="flex min-w-fit ">
           <img
-            src="/images/webp/WB4.webp"
+            src="/images/webp/est-logo.webp"
             class="w-52"
             alt="The Oviedo Wedding Barn logo: weathervane rooster draped company name and above location and established year"
           />
