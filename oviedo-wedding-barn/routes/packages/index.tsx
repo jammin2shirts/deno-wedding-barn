@@ -115,7 +115,15 @@ export default function Home() {
 
         <hr class="border-t-1 border-solid border-wedding-barn-red my-6" />
         <p class="my-6 text-3xl text-center font-normal font-ambroise-std ">
-          Submit a form <a class="underline hover:text-gray-400" href="https://www.honeybook.com/widget/the_wedding_barn_234791/cf_id/633da925dd2a5a0026b82a25" target="_blank">here</a> to receive information on pricing.
+          Submit a form{" "}
+          <a
+            class="underline hover:text-gray-400"
+            href="https://www.honeybook.com/widget/the_wedding_barn_234791/cf_id/633da925dd2a5a0026b82a25"
+            target="_blank"
+          >
+            here
+          </a>{" "}
+          to receive information on pricing.
         </p>
       </div>
     </>

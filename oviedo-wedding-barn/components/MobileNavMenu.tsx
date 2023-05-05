@@ -12,7 +12,11 @@ export function MobileNavMenu(props: MobileNavProps) {
     { name: "Home", link: "/" },
     { name: "About", link: "/about" },
     { name: "Packages", link: "/packages" },
-    { name: "Contact", link: "https://www.honeybook.com/widget/the_wedding_barn_234791/cf_id/633da925dd2a5a0026b82a25" },
+    {
+      name: "Contact",
+      link:
+        "https://www.honeybook.com/widget/the_wedding_barn_234791/cf_id/633da925dd2a5a0026b82a25",
+    },
     { name: "Gallery", link: "/gallery" },
   ];
   return (
@@ -28,7 +32,13 @@ export function MobileNavMenu(props: MobileNavProps) {
           <nav class="flex flex-col  border-solid border-2  bg-wedding-barn-red rounded-md">
             {links.map((link) => {
               return (
-                <a class="hover:bg-white hover:text-black text-xl text-uppercase  text-white font-ambrose-light px-4" href={link.link} target={link.name === "Contact"? "_blank" : null}>{link.name}</a>
+                <a
+                  class="hover:bg-white hover:text-black text-xl text-uppercase  text-white font-ambrose-light px-4"
+                  href={link.link}
+                  target={link.name === "Contact" ? "_blank" : null}
+                >
+                  {link.name}
+                </a>
               );
             })}
           </nav>

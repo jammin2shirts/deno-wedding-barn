@@ -36,7 +36,9 @@ export default function Home() {
         alt="Oviedo Wedding Barn photo of owner's family during breaking ground"
       />
       <div class="p-4 mx-auto max-w-screen-md font-canada-type-gibson font-extralight">
-        <p class="my-6 text-center font-ambroise-std text-2xl">Meet Our Family</p>
+        <p class="my-6 text-center font-ambroise-std text-2xl">
+          Meet Our Family
+        </p>
         <p class="my-6">
           We are proud to have 4 generations of family currently living in
           Oviedo, FL. Though you may not see all of us while planning your event

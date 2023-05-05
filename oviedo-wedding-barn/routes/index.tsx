@@ -65,7 +65,10 @@ export default function Home() {
           and wandering the memorable grounds. As a premier reception venue, The
           Wedding Barn offers memories to last a life time.
         </p>
-        <img src="/images/webp/barn-door-view.webp" alt="Oviedo Wedding Barn outside view from barn doors angled toward the sky" />
+        <img
+          src="/images/webp/barn-door-view.webp"
+          alt="Oviedo Wedding Barn outside view from barn doors angled toward the sky"
+        />
         <p class=" py-8 font-ed-market text-center text-3xl text-wedding-barn-red">
           New Beginnings, Timeless Memories
         </p>
