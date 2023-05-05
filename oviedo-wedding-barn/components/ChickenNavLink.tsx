@@ -4,7 +4,6 @@ import { IS_BROWSER } from "$fresh/runtime.ts";
 
 export function ChickenNavLink(props: JSX.HTMLAttributes) {
   const [isHovering, setIsHovering] = useState(false);
-  console.dir(props);
   return (
     <div class="m-auto max-w-max ">
       <div class=" h-20 flex justify-center items-end">
