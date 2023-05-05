@@ -1,0 +1,54 @@
+export function FooterElement() {
+  return (
+    <footer class="flex flex-col md:flex-row justify-center gap-5 font-canada-type-gibson font-extralight my-5">
+      <section class="flex flex-col md:flex-row md:justify-end items-center text-center md:text-left ">
+        <img
+          src="images/nav-rooster.png"
+          alt="Weathervane Rooster logo in footer"
+          class="w-32 md:w-20"
+        />
+        <div>
+          <p class=" text-lg">SAVE THE DATE.</p>
+          <a
+            href="https://theweddingbarn.hbportal.co/schedule/639d2e4192efc305bda3f365"
+            target="_blank"
+            class="underline text-2xl text-blue-800 hover:bg-gray-200"
+          >
+            BOOK A VIRTUAL TOUR TODAY.
+          </a>
+        </div>
+      </section>
+      <div class=" hidden md:block md:border-l-2"></div>
+      <section class="flex flex-row  md:justify-start gap-5 justify-center ">
+        <div class="flex flex-col gap-2 md:my-auto">
+          <a href="https://www.facebook.com/oviedoweddingbarn" target="_blank">
+            <img
+              src="/images/f_logo_RGB-Blue_1024.png"
+              alt="facebook Icon"
+              class="w-10"
+              loading="lazy"
+            />
+          </a>
+          <a href="https://www.instagram.com/oviedoweddingbarn" target="_blank">
+            <img
+              src="/images/Instagram_Glyph_Gradient_RGB.svg"
+              alt="instagram Icon"
+              class="w-10"
+              loading="lazy"
+            />
+          </a>
+        </div>
+        <div class="md:my-auto">
+          <ul>
+            <li>
+              (321) 368-4367
+            </li>
+            <li>info@oviedoweddingbarn.com</li>
+            <li>346 E. Franklin St.</li>
+            <li>Oviedo, FL 32765</li>
+          </ul>
+        </div>
+      </section>
+    </footer>
+  );
+}

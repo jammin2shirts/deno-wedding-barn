@@ -1,6 +1,7 @@
 import { PageProps } from "$fresh/server.ts";
 import NavBar from "@/islands/NavBar.tsx";
 import { HeadElement } from "@/components/HeadElement.tsx";
+import { FooterElement } from "@/components/FooterElement.tsx";
 
 export default function Home(ctx: PageProps) {
   const { url } = ctx;
@@ -56,6 +57,7 @@ export default function Home(ctx: PageProps) {
           </div>
         </div>
       </div>
+      <FooterElement />
     </>
   );
 }
