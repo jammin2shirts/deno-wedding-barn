@@ -2,7 +2,28 @@ import { PageProps } from "$fresh/server.ts";
 import NavBar from "@/islands/NavBar.tsx";
 import { HeadElement } from "@/components/HeadElement.tsx";
 import { FooterElement } from "@/components/FooterElement.tsx";
+import { createReporter } from "https://deno.land/x/g_a/mod.ts";
 
+
+/** this is a GA property ID we are using for this example, it is better to fork this playground and
+ * set the `GA_TRACKING_ID` environment variable with your own property ID. */
+const ga = createReporter({ id: "UA-260968712-1" });
+export const handler: Handlers = {
+  GET(req, ctx) {
+    let err;
+    let res: Response;
+    const start = performance.now();
+    try {
+      // processing of the request...
+      res = new Response("Hello Google Analytics");
+    } catch (e) {
+      err = e;
+    } finally {
+      ga(req, ctx, res!, start, err);
+    }
+    return ctx.render();
+  },
+};
 export default function Home(ctx: PageProps) {
   const { url } = ctx;
   return (
