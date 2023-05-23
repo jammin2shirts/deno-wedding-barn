@@ -21,7 +21,7 @@ export function FooterElement() {
       <div class=" hidden md:block md:border-l-2"></div>
       <section class="flex flex-row  md:justify-start gap-5 justify-center ">
         <div class="flex flex-col gap-2 md:my-auto">
-          <a href="https://www.facebook.com/oviedoweddingbarn" target="_blank">
+          <a id="owb-fb" href="https://www.facebook.com/oviedoweddingbarn" target="_blank">
             <img
               src="/images/f_logo_RGB-Blue_1024.png"
               alt="facebook Icon"
@@ -29,7 +29,7 @@ export function FooterElement() {
               loading="lazy"
             />
           </a>
-          <a href="https://www.instagram.com/oviedoweddingbarn" target="_blank">
+          <a id="owb-insta" href="https://www.instagram.com/oviedoweddingbarn" target="_blank">
             <img
               src="/images/Instagram_Glyph_Gradient_RGB.svg"
               alt="instagram Icon"
