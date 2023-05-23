@@ -9,7 +9,8 @@ import * as $2 from "./routes/index.tsx";
 import * as $3 from "./routes/packages/index.tsx";
 import * as $4 from "./routes/sitemap.xml.ts";
 import * as $$0 from "./islands/Gallery.tsx";
-import * as $$1 from "./islands/NavBar.tsx";
+import * as $$1 from "./islands/HeadElement.tsx";
+import * as $$2 from "./islands/NavBar.tsx";
 
 const manifest = {
   routes: {
@@ -21,7 +22,8 @@ const manifest = {
   },
   islands: {
     "./islands/Gallery.tsx": $$0,
-    "./islands/NavBar.tsx": $$1,
+    "./islands/HeadElement.tsx": $$1,
+    "./islands/NavBar.tsx": $$2,
   },
   baseUrl: import.meta.url,
   config,
