@@ -10,6 +10,7 @@ export function FooterElement() {
         <div>
           <p class=" text-lg">SAVE THE DATE.</p>
           <a
+            id="footer-tour"
             href="https://theweddingbarn.hbportal.co/schedule/639d2e4192efc305bda3f365"
             target="_blank"
             class="underline text-2xl text-blue-800 hover:bg-gray-200"

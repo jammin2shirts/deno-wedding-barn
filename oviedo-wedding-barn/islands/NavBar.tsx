@@ -28,6 +28,7 @@ export default function NavBar() {
           <div class="flex ">
             <ChickenNavLink link="/packages">PACKAGES</ChickenNavLink>
             <ChickenNavLink
+              id="desktop-contact"
               link="https://www.honeybook.com/widget/the_wedding_barn_234791/cf_id/633da925dd2a5a0026b82a25"
               external={true}
             >
