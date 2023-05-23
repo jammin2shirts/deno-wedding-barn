@@ -24,6 +24,7 @@ export function ChickenNavLink(props: JSX.HTMLAttributes) {
         target={props.external ? "_blank" : ""}
         className={props.className +
           " px-2 py-1 border(gray-100 2) hover:bg-gray-200 font-ambrose-light text-wedding-barn-red text-xl"}
+        id={props.id || ''}
       >
         {props.children}
       </a>
