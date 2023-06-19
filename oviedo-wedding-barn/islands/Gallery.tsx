@@ -5,8 +5,9 @@ import { IS_BROWSER } from "$fresh/runtime.ts";
 export default function Gallery(props: JSX.HTMLAttributes) {
   const [isSelected, setIsSelected] = useState();
   return (
-    <div class="mx-auto max-w-screen-md font-canada-type-gibson">
-      <div class="container mx-auto border-2 px-5 py-2 ">
+    <div class="mx-auto max-w-screen-lg font-canada-type-gibson">
+      
+      <div class="container mx-auto border-2 rounded-lg  px-5 py-2 ">
         <div class="-m-1 flex flex-wrap md:-m-2">
           <div class="flex w-1/2 flex-wrap">
             <div class="w-1/2 p-1 md:p-2">

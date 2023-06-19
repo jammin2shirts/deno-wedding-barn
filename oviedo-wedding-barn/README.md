@@ -24,3 +24,10 @@ deno run            \
     --allow-write   \
     https://deno.land/x/fresh_seo/init.ts
 ```
+
+
+# Webp Converter
+URL: https://www.funkyspacemonkey.com/easily-convert-images-to-webp-on-linux-and-macos
+```
+   cwebp -q 72 input.png -o output.webp
+```
