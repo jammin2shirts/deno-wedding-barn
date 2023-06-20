@@ -20,9 +20,9 @@ export function ImgCarousel(
     }
   };
   return (
-    <div className="md:p-5 flex justify-between items-center w-full h-96 mb-10 ">
+    <div className="md:p-5 flex justify-between items-center h-96  mb-10 ">
       <IconCircleChevronsLeft
-        class={` w-10 h-10 text-black cursor-pointer`}
+        class={`w-10 h-10 text-black cursor-pointer`}
         onClick={() => nextSlide(-1)}
       />
       <img
