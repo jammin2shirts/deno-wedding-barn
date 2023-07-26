@@ -71,7 +71,7 @@ export default function Home(ctx: PageProps) {
           <div class="flex flex-col p-2 text-center justify-items-center">
             <span class="mb-4">The Venue</span>
             <img
-              src="images/webp/inside.webp"
+              src="images/webp/interior.webp"
               alt="Oviedo Wedding Barn interior view from barn door showing dinner tables, chandeliers and interior styling"
               loading="lazy"
             />
