@@ -10,33 +10,68 @@ import { ImgCarousel } from "@/components/ImgCarousel.tsx";
 const SLIDE_DATA = [
   {
     color: "",
-    text: "slide five",
-    url: "images/webp/Website Gallery WebP/3D Render Barn.webp",
-  },
-  {
-    color: "",
     text: "slide one",
-    url: "/images/webp/ceremony.webp",
-  },
-  {
-    color: "",
-    text: "slide four",
-    url: "/images/webp/patio.webp",
-  },
-  {
-    color: "",
-    text: "slide four",
-    url: "/images/webp/zoomed-in-rafter.webp",
-  },
-  {
-    color: "",
-    text: "slide three",
-    url: "/images/webp/interior.webp",
+    url: "/images/webp/Website Gallery WebP/3D Render Barn.webp",
   },
   {
     color: "",
     text: "slide two",
-    url: "/images/webp/full-barn.webp",
+    url: "/images/webp/Website Gallery WebP/3D Render Patio.webp",
+  },
+  {
+    color: "",
+    text: "slide three",
+    url: "/images/webp/Website Gallery WebP/3D Render inside.webp",
+  },
+  {
+    color: "",
+    text: "slide four",
+    url: "/images/webp/Website Gallery WebP/Barn Progress 1.webp",
+  },
+  {
+    color: "",
+    text: "slide five",
+    url: "/images/webp/Website Gallery WebP/Beam Beauty 2.webp",
+  },
+  {
+    color: "",
+    text: "slide six",
+    url: "/images/webp/Website Gallery WebP/Beam Beauty.webp",
+  },
+    {
+    color: "",
+    text: "slide seven",
+    url: "/images/webp/Website Gallery WebP/Center Barn Progress.webp",
+  },
+    {
+    color: "",
+    text: "slide eight",
+    url: "/images/webp/Website Gallery WebP/Center Post and Beam.webp",
+  },
+    {
+    color: "",
+    text: "slide nine",
+    url: "/images/webp/Website Gallery WebP/Lean to Build.webp",
+  },
+      {
+    color: "",
+    text: "slide ten",
+    url: "/images/webp/Website Gallery WebP/Lean to Progress.webp",
+  },
+     {
+    color: "",
+    text: "slide eleven",
+    url: "/images/webp/Website Gallery WebP/Progress Pic 1.webp",
+  },
+     {
+    color: "",
+    text: "slide twelve",
+    url: "/images/webp/Website Gallery WebP/Progress Pic Ceiling.webp",
+  },
+     {
+    color: "",
+    text: "slide thirteen",
+    url: "/images/webp/Website Gallery WebP/Tongue and Groove Ceiling.webp",
   },
 ];
 
