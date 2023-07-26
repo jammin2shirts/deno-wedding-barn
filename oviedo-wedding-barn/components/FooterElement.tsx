@@ -11,11 +11,11 @@ export function FooterElement() {
           <p class=" text-lg">SAVE THE DATE.</p>
           <a
             id="footer-tour"
-            href="https://theweddingbarn.hbportal.co/schedule/639d2e4192efc305bda3f365"
+            href="https://www.honeybook.com/widget/the_wedding_barn_234791/cf_id/633da925dd2a5a0026b82a25"
             target="_blank"
             class="underline text-2xl text-blue-800 hover:bg-gray-200"
           >
-            BOOK A VIRTUAL TOUR TODAY.
+            SCHEDULE A TOUR TODAY.
           </a>
         </div>
       </section>
