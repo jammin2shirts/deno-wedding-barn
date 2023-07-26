@@ -30,7 +30,7 @@ export default function Home(ctx: PageProps) {
         <section class="md:flex md:flex-col md:flex-wrap md:h-100 gap-5">
           <div class="md:w-1/2">
             <ul>
-              <li class="font-bold">
+              <li class="text-lg font-bold">
                 Ceremony, Cocktail Hour and Reception up to 200 guests
               </li>
               <li>Onsite venue manager</li>
@@ -44,7 +44,7 @@ export default function Home(ctx: PageProps) {
           </div>
           <div class="md:w-1/2">
             <ul>
-              <li class="font-bold">Tables</li>
+              <li class="text-lg font-bold">Tables</li>
               <li>60" round tables and chairs for up to 200 guests</li>
               <li>Black or white tableclothes for rounds</li>
               <li>8ft banquet tables (3) used for buffet, DJ, gifts, etc.</li>
@@ -54,7 +54,7 @@ export default function Home(ctx: PageProps) {
           </div>
           <div class="md:w-1/2">
             <ul>
-              <li class="font-bold">Chairs</li>
+              <li class="text-lg font-bold">Chairs</li>
               <li>Outdoor ceremony seating for up to 200 guests</li>
               <li>Reception chairs for up to 200 guests</li>
               <li>Set up and break down of chairs/tables</li>
@@ -62,7 +62,7 @@ export default function Home(ctx: PageProps) {
           </div>
           <div class="md:w-1/2">
             <ul>
-              <li class="font-bold">Entertainment Equipment (by request)</li>
+              <li class="text-lg font-bold">Entertainment Equipment (by request)</li>
               <li>Projector</li>
               <li>Ceremony microphone</li>
               <li>Venue microphone</li>
@@ -74,7 +74,7 @@ export default function Home(ctx: PageProps) {
           </div>
           <div class="md:w-1/2">
             <ul>
-              <li class="font-bold">Food and Drink</li>
+              <li class="text-lg font-bold">Food and Drink</li>
               <li>Use of our onsite catering prep kitchen</li>
               <li>Use of our custom bar</li>
             </ul>
@@ -89,7 +89,7 @@ export default function Home(ctx: PageProps) {
           />
           <div class="md:w-1/2">
             <ul>
-              <li class="font-bold">Two Large Dressing Suites</li>
+              <li class="text-lg font-bold">Two Large Dressing Suites</li>
               <li>Full length mirrors</li>
               <li>Makeup stations</li>
               <li>Couches and lounges</li>
