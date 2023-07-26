@@ -11,7 +11,7 @@ const SLIDE_DATA = [
   {
     color: "",
     text: "slide five",
-    url: "/images/webp/barn-door-view.webp",
+    url: "images/webp/Website Gallery WebP/3D Render Barn.webp",
   },
   {
     color: "",
