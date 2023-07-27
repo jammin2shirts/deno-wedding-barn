@@ -22,7 +22,7 @@ export default function Home(ctx: PageProps) {
         <div>
           <div class="relative">
             <img
-              src="/images/webp/zoomed-in-rafter.webp"
+              src="/images/introceiling1.webp"
               alt="Oviedo Wedding Barn zoomed in interior view of rafters with chandeliers"
               class="w-full"
             />
