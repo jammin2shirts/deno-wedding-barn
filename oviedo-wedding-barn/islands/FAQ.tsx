@@ -1,20 +1,6 @@
-import { useState } from "preact/hooks";
-import FaqListItem from "@/islands/FAQ_List_Item.tsx";
-import IconPlus from "https://deno.land/x/tabler_icons_tsx@0.0.3/tsx/plus.tsx";
-import IconMinus from "https://deno.land/x/tabler_icons_tsx@0.0.3/tsx/minus.tsx";
-export default function Faq(ctx: PageProps) {
-  const { url } = ctx;
-  const [hide, setHide] = useState<Array>([]);
-  const clicked = (index: number) => {
-    console.log(index);
-    console.log(hide);
-    if (hide.includes(index)) {
-      setHide([]);
-    } else {
-      setHide([index]);
-    }
-  };
 
+import FaqListItem from "@/islands/FAQ_List_Item.tsx";
+export default function Faq(ctx: PageProps) {
   return (
     <div class={`w-4/5 flex flex-col gap-3 font-canada-type-gibson uppercase`}>
       <span class={`text-center font-ambroise-std text-2xl`}>

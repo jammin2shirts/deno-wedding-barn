@@ -16,14 +16,14 @@ export default function FaqListItem({ question, answer }: myProps) {
         class="uppercase z-40 p-1 flex justify-between border(gray-100 2) bg-wedding-barn-red text-white focus:border(gray-100 2) hover:(bg-white text-black border(gray-100 2))"
       >
         <span class={`my-auto px-3`}>{question}</span>
-        {hide
-          ? <IconPlus class={`w-9 h-9`} />
-          : <IconMinus class="w-9 h-9" />}
+        <div class={`my-auto bg-blue  `}>
+          {hide
+            ? <IconPlus class={`w-9 h-9`} />
+            : <IconMinus class="w-9 h-9" />}
+        </div>
       </div>
       <div
-        class={`p-4  ${
-          hide ? "hidden" : "block "
-        } animate-appear z-10 `}
+        class={`p-4  ${hide ? "hidden" : "block "} animate-appear z-10 `}
       >
         <ul>
           {answer.split(".").map((value) => {
