@@ -14,6 +14,7 @@ export default function NavBar() {
           <div class="flex">
             <ChickenNavLink link="/">HOME</ChickenNavLink>
             <ChickenNavLink link="/about">ABOUT</ChickenNavLink>
+            <ChickenNavLink link="/faqs">FAQS</ChickenNavLink>
           </div>
           <img class="rotate-180" alt="left-arrow" src="/images/arrow.svg" />
         </div>
@@ -35,6 +36,7 @@ export default function NavBar() {
               CONTACT
             </ChickenNavLink>
             <ChickenNavLink link="/gallery">GALLERY</ChickenNavLink>
+            {/* <ChickenNavLink link="/vendors">VENDORS</ChickenNavLink> */}
           </div>
           <img alt="right-arrow" src="/images/arrow.svg" />
         </div>

@@ -4,26 +4,34 @@
 
 import config from "./deno.json" assert { type: "json" };
 import * as $0 from "./routes/about/index.tsx";
-import * as $1 from "./routes/gallery/index.tsx";
-import * as $2 from "./routes/index.tsx";
-import * as $3 from "./routes/packages/index.tsx";
-import * as $4 from "./routes/sitemap.xml.ts";
-import * as $$0 from "./islands/Gallery.tsx";
-import * as $$1 from "./islands/HeadElement.tsx";
-import * as $$2 from "./islands/NavBar.tsx";
+import * as $1 from "./routes/faqs/index.tsx";
+import * as $2 from "./routes/gallery/index.tsx";
+import * as $3 from "./routes/index.tsx";
+import * as $4 from "./routes/packages/index.tsx";
+import * as $5 from "./routes/sitemap.xml.ts";
+import * as $6 from "./routes/vendors/index.tsx";
+import * as $$0 from "./islands/FAQ.tsx";
+import * as $$1 from "./islands/FAQ_List_Item.tsx";
+import * as $$2 from "./islands/Gallery.tsx";
+import * as $$3 from "./islands/HeadElement.tsx";
+import * as $$4 from "./islands/NavBar.tsx";
 
 const manifest = {
   routes: {
     "./routes/about/index.tsx": $0,
-    "./routes/gallery/index.tsx": $1,
-    "./routes/index.tsx": $2,
-    "./routes/packages/index.tsx": $3,
-    "./routes/sitemap.xml.ts": $4,
+    "./routes/faqs/index.tsx": $1,
+    "./routes/gallery/index.tsx": $2,
+    "./routes/index.tsx": $3,
+    "./routes/packages/index.tsx": $4,
+    "./routes/sitemap.xml.ts": $5,
+    "./routes/vendors/index.tsx": $6,
   },
   islands: {
-    "./islands/Gallery.tsx": $$0,
-    "./islands/HeadElement.tsx": $$1,
-    "./islands/NavBar.tsx": $$2,
+    "./islands/FAQ.tsx": $$0,
+    "./islands/FAQ_List_Item.tsx": $$1,
+    "./islands/Gallery.tsx": $$2,
+    "./islands/HeadElement.tsx": $$3,
+    "./islands/NavBar.tsx": $$4,
   },
   baseUrl: import.meta.url,
   config,

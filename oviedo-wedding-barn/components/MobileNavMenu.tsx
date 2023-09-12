@@ -18,6 +18,8 @@ export function MobileNavMenu(props: MobileNavProps) {
         "https://www.honeybook.com/widget/the_wedding_barn_234791/cf_id/633da925dd2a5a0026b82a25",
     },
     { name: "Gallery", link: "/gallery" },
+    { name: "FAQs", link: "/faqs" },
+    // { name: "Vendors", link: "/vendors" },
   ];
   return (
     <div class="absolute top-1 left-1">

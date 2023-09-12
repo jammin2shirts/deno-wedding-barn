@@ -164,6 +164,8 @@
     "https://deno.land/x/tabler_icons_tsx@0.0.3/tsx/circle-chevrons-left.tsx": "4d507c43adc9a7b4fcb701acbdd88d19f6ee9111bbbff1e5f332e84115b2cadb",
     "https://deno.land/x/tabler_icons_tsx@0.0.3/tsx/circle-chevrons-right.tsx": "422fb5b4b413958117dfa36c32b207d2f88b8ff86ea0aa6c3d1499a3399d9771",
     "https://deno.land/x/tabler_icons_tsx@0.0.3/tsx/menu-2.tsx": "ca776abcf5b3502d721d55f4f05798caa30984021022b451e8491b8ba84e27f4",
+    "https://deno.land/x/tabler_icons_tsx@0.0.3/tsx/minus.tsx": "71d42f07a17a0d58b1ee8b20321d2c625938830f278d4a6c3ce26f59e14254ac",
+    "https://deno.land/x/tabler_icons_tsx@0.0.3/tsx/plus.tsx": "1ecb36d15e5b67d9c21c88cc58b51ce38393234b9cc9046359bfdbb26d38b6db",
     "https://deno.land/x/ts_morph@17.0.1/common/DenoRuntime.ts": "537800e840d0994f9055164e11bf33eadf96419246af0d3c453793c3ae67bdb3",
     "https://deno.land/x/ts_morph@17.0.1/common/mod.ts": "01985d2ee7da8d1caee318a9d07664774fbee4e31602bc2bb6bb62c3489555ed",
     "https://deno.land/x/ts_morph@17.0.1/common/ts_morph_common.d.ts": "ee7767b0c68b23c65bb607c94b6cb3512e8237fbcb7d1d8383a33235cde2c068",
