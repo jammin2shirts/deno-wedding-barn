@@ -1,12 +1,24 @@
-
 import FaqListItem from "@/islands/FAQ_List_Item.tsx";
+
 export default function Faq(ctx: PageProps) {
   return (
     <div class={`w-4/5 flex flex-col gap-3 font-canada-type-gibson uppercase`}>
+      <div class={`flex justify-center my-10`}>
+        <iframe
+          width="600"
+          height="450"
+          style="border:0"
+          loading="lazy"
+          allowfullscreen
+          referrerpolicy="no-referrer-when-downgrade"
+          src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAhQUPa-3BMq0YMJioEz7D93LhuH3vv_Io
+        &q=OVIEDO+WEDDING+BARN&zoom=12"
+        >
+        </iframe>
+      </div>
       <span class={`text-center font-ambroise-std text-2xl`}>
         FAQs
       </span>
-
       <FaqListItem
         question="What is the capacity?"
         answer="We can comfortably seat up to 200 guests with a band stage and dance floor."
