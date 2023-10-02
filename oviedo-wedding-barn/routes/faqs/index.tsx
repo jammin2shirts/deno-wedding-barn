@@ -7,12 +7,11 @@ export default function Faqs(ctx: PageProps) {
   return (
     <>
       <HeadElement
-        description="The Wedding Barn operates a beautiful event space right in the heart of Central Florida. Located just 20 min
-        north of Orlando, our idyllic setting is a family owned and operated venue that prides itself on creating the perfect
-        event for you. The offer of a beautiful setting, stellar customer service, and an inclusive setting are our promise to
-        you. Originally built in 2023, the Wedding Barn features a fully air conditioned event venue, cocktail patio, custom bar,
-        dressing suites, and a catering prep kitchen. You and your guests will enjoy mingling, and wandering the memorable
-        grounds. As a premier reception venue, The Wedding Barn offers memories to last a life time."
+        description="Congratulations on your wedding journey! Choosing the perfect venue is a pivotal step in 
+        bringing your dream wedding to life. This Wedding Venue FAQ provides answers to common questions, 
+        helping you navigate the exciting yet overwhelming process of venue selection. Your venue sets the 
+        tone for your celebration, and this guide will empower you to make an informed decision. Let's get 
+        started on your path to finding the ideal wedding venue."
         image={url.href + "images/webp/full-barn.webp"}
         title="The Wedding Barn - Oviedo, FL"
         url={url}
