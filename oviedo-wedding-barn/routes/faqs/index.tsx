@@ -13,7 +13,7 @@ export default function Faqs(ctx: PageProps) {
         tone for your celebration, and this guide will empower you to make an informed decision. Let's get 
         started on your path to finding the ideal wedding venue."
         image={url.href + "images/webp/full-barn.webp"}
-        title="The Wedding Barn - Oviedo, FL"
+        title="FAQ | The Wedding Barn - Oviedo, FL"
         url={url}
       />
       <NavBar />

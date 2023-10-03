@@ -13,7 +13,7 @@ export default function Home(ctx: PageProps) {
         our facilities, customizable packages, and the magic that awaits you as you embark on the 
         journey of a lifetime."
         image={url.href + "images/webp/full-barn.webp"}
-        title="The Wedding Barn - Oviedo, FL"
+        title="About | The Wedding Barn - Oviedo, FL"
         url={url}
       />
       <NavBar />

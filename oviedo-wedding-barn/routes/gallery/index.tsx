@@ -13,7 +13,7 @@ export default function Home(ctx: PageProps) {
         collection of images, find inspiration, and envision your dream wedding at The Wedding Barn. 
         Contact our team to turn your dreams into reality."
         image={url.href + "images/webp/full-barn.webp"}
-        title="The Wedding Barn - Oviedo, FL"
+        title="Gallery | The Wedding Barn - Oviedo, FL"
         url={url}
       />
       <NavBar />

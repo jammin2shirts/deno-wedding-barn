@@ -15,7 +15,7 @@ export default function Home(ctx: PageProps) {
         your dream wedding a reality within your budget. Let's get started on your journey to an 
         unforgettable wedding day that reflects your style and stays within your means."
         image={url.href + "images/webp/full-barn.webp"}
-        title="The Wedding Barn - Oviedo, FL"
+        title="Packages | The Wedding Barn - Oviedo, FL"
         url={url}
       />
       <NavBar />
