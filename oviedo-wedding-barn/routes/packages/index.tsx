@@ -1,6 +1,6 @@
 import { PageProps } from "$fresh/server.ts";
 import NavBar from "@/islands/NavBar.tsx";
-import HeadElement  from "@/islands/HeadElement.tsx";
+import HeadElement from "@/islands/HeadElement.tsx";
 import { FooterElement } from "@/components/FooterElement.tsx";
 export default function Home(ctx: PageProps) {
   const { url } = ctx;
@@ -19,7 +19,78 @@ export default function Home(ctx: PageProps) {
         url={url}
       />
       <NavBar />
+      <div class={`flex flex-col items-center mt-10 gap-5 sm:(flex-row flex-wrap justify-center)`}>
+        <div
+          class={`flex flex-col max-w-[22rem] justify-center bg-wedding-barn-red m-5 p-5 items-center gap-2`}
+        >
+          <span
+            class={`flex justify-center font-ambroise-std text-3xl text-white`}
+          >
+            WEDDINGS
+          </span>
+          <img
+            src="images/webp/wedding.webp"
+            alt=""
+            class={`m-auto w-[20rem] h-52 `}
+          />
+          <span
+            class={`flex justify-center font-beloved-script text-white text-4xl `}
+          >
+            Starting at $5000
+          </span>
+        </div>
+        <div
+          class={`flex flex-col max-w-[22rem] bg-wedding-barn-red m-5 p-5 items-center gap-2`}
+        >
+          <span
+            class={`flex justify-center font-ambroise-std text-3xl text-white`}
+          >
+            CORPORATE
+          </span>
+          <img
+            src="images/webp/event.webp"
+            alt=""
+            class={`m-auto p-2 w-[20rem]  h-52`}
+          />
+          <span
+            class={`flex justify-center font-beloved-script text-white  text-4xl`}
+          >
+            Starting at $2300
+          </span>
+        </div>
+        <div
+          class={`flex flex-col max-w-[22rem]  bg-wedding-barn-red m-5 p-5 items-center gap-2`}
+        >
+          <span
+            class={`flex justify-center font-ambroise-std text-3xl text-white`}
+          >
+            EVENTS
+          </span>
+          <img
+            src="images/webp/celebrate.webp"
+            alt=""
+            class={`m-auto p-2 w-[20rem]  h-52`}
+          />
+          <span
+            class={`flex justify-center font-beloved-script text-white  text-4xl`}
+          >
+            Starting at $2200
+          </span>
+        </div>
+      </div>
       <div class="p-4 mx-auto max-w-screen-md  font-canada-type-gibson font-extralight">
+        {/* <hr class="border-t-1 border-solid border-wedding-barn-red my-6" /> */}
+        <p class="my-6 text-3xl text-center font-normal font-ambroise-std ">
+          Submit a form{" "}
+          <a
+            class="underline hover:text-gray-400"
+            href="https://www.honeybook.com/widget/the_wedding_barn_234791/cf_id/633da925dd2a5a0026b82a25"
+            target="_blank"
+          >
+            here
+          </a>{" "}
+          to receive information on pricing.
+        </p>
         <div class="text-2xl">
           What's Included
         </div>
@@ -63,7 +134,9 @@ export default function Home(ctx: PageProps) {
           </div>
           <div class="md:w-1/2">
             <ul>
-              <li class="text-lg font-bold">Entertainment Equipment (by request)</li>
+              <li class="text-lg font-bold">
+                Entertainment Equipment (by request)
+              </li>
               <li>Projector</li>
               <li>Ceremony microphone</li>
               <li>Venue microphone</li>
@@ -100,19 +173,6 @@ export default function Home(ctx: PageProps) {
             </ul>
           </div>
         </section>
-
-        <hr class="border-t-1 border-solid border-wedding-barn-red my-6" />
-        <p class="my-6 text-3xl text-center font-normal font-ambroise-std ">
-          Submit a form{" "}
-          <a
-            class="underline hover:text-gray-400"
-            href="https://www.honeybook.com/widget/the_wedding_barn_234791/cf_id/633da925dd2a5a0026b82a25"
-            target="_blank"
-          >
-            here
-          </a>{" "}
-          to receive information on pricing.
-        </p>
       </div>
 
       <FooterElement />

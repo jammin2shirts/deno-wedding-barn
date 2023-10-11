@@ -13,6 +13,7 @@ export default {
         "ambroise-francois-std": "ambroise-francois-std",
         "ed-market": "eds-market-main-script",
         "canada-type-gibson": "canada-type-gibson",
+        "beloved-script":"beloved-script",
       },
       colors: {
         "wedding-barn-red": "#782f40",
