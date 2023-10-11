@@ -31,7 +31,7 @@ export default function Home(ctx: PageProps) {
           <img
             src="images/webp/wedding.webp"
             alt=""
-            class={`m-auto w-[20rem] h-52 `}
+            class={`m-auto  p-2 w-[20rem] h-52 `}
           />
           <span
             class={`flex justify-center font-beloved-script text-white text-4xl `}
