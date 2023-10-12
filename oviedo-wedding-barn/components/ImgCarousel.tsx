@@ -20,9 +20,9 @@ export function ImgCarousel(
     }
   };
   return (
-    <div className="md:p-5 flex justify-between items-center mb-10 ">
+    <div className="md:p-5 flex justify-center items-center mb-10 ">
       <IconCircleChevronsLeft
-        class={`w-10 h-10 text-black cursor-pointer`}
+        class={`absolute left-0 text-white bg-red-500 opacity-50 sm:(flex w-10 h-10 text-black cursor-pointer bg-transparent opacity-100)`}
         onClick={() => nextSlide(-1)}
       />
       <img
@@ -30,7 +30,7 @@ export function ImgCarousel(
         class={`max-w-sm md:max-w-lg object-scale-down`}
       />
       <IconCircleChevronsRight
-        class={` w-10 h-10 text-black cursor-pointer `}
+        class={`absolute right-0 text-white bg-red-500 opacity-50 sm:(flex w-10 h-10 text-black cursor-pointer bg-transparent opacity-100)`}
         onClick={() => nextSlide(1)}
       />
     </div>
