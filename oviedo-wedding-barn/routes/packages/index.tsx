@@ -84,6 +84,7 @@ export default function Home(ctx: PageProps) {
           Submit a form{" "}
           <a
             class="underline hover:text-gray-400"
+            id="desktop-contact"
             href="https://www.honeybook.com/widget/the_wedding_barn_234791/cf_id/633da925dd2a5a0026b82a25"
             target="_blank"
           >

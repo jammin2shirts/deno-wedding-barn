@@ -16,6 +16,7 @@ export function MobileNavMenu(props: MobileNavProps) {
       name: "Contact",
       link:
         "https://www.honeybook.com/widget/the_wedding_barn_234791/cf_id/633da925dd2a5a0026b82a25",
+      id: "desktop-contact",
     },
     { name: "Gallery", link: "/gallery" },
     { name: "FAQs", link: "/faqs" },
@@ -38,6 +39,7 @@ export function MobileNavMenu(props: MobileNavProps) {
                   class="hover:bg-white hover:text-black text-xl text-uppercase  text-white font-ambrose-light px-4"
                   href={link.link}
                   target={link.name === "Contact" ? "_blank" : null}
+                  id={link.id ? link.id : null}
                 >
                   {link.name}
                 </a>
