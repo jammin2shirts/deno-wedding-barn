@@ -19,7 +19,9 @@ export default function Home(ctx: PageProps) {
         url={url}
       />
       <NavBar />
-      <div class={`flex flex-col items-center mt-10 gap-5 sm:(flex-row flex-wrap justify-center)`}>
+      <div
+        class={`flex flex-col items-center mt-10 gap-5 sm:(flex-row flex-wrap justify-center)`}
+      >
         <div
           class={`flex flex-col max-w-[22rem] justify-center bg-wedding-barn-red m-5 p-5 items-center gap-2`}
         >
@@ -81,16 +83,15 @@ export default function Home(ctx: PageProps) {
       <div class="p-4 mx-auto max-w-screen-md  font-canada-type-gibson font-extralight">
         {/* <hr class="border-t-1 border-solid border-wedding-barn-red my-6" /> */}
         <p class="my-6 text-3xl text-center font-normal font-ambroise-std ">
-          Submit a form{" "}
+         
           <a
             class="underline hover:text-gray-400"
             id="desktop-contact"
-            href="https://www.honeybook.com/widget/the_wedding_barn_234791/cf_id/633da925dd2a5a0026b82a25"
+            href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.canva.com%2Fdesign%2FDAF5DLcRLbA%2F_tVDE30OoZjxBj72Dp_zNA%2Fview%3Futm_content%3DDAF5DLcRLbA%26utm_campaign%3Ddesignshare%26utm_medium%3Dlink%26utm_source%3Deditor%26fbclid%3DIwAR3Fqh94LiBZAnmZBsYxllSOAoROL8KcRMcyYpTxh_MKniAFg2afKpSlSEk&h=AT0Ha20FHaormm-Aw6FJYNqhNsGg1JtS7sLxCzSKm5aO58CqDQINgGY52yFBAu6KF8e8kjYdSrTB1jF6bh5jB7H55NtZNbs2zwPNy3bVmRCg-r4HrcwyuPUdDuFk_yyVL-IQVJRu5ZUq9TtH6z-tvfH_"
             target="_blank"
           >
-            here
-          </a>{" "}
-          to receive information on pricing.
+            Click here to view our pricing brochure
+          </a>
         </p>
         <div class="text-2xl">
           What's Included
